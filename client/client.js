@@ -1,15 +1,27 @@
 Meteor.subscribe('users');
 
 Accounts.ui.config({
-  passwordSignupFields: 'USERNAME_AND_OPTIONAL_EMAIL'
+  	passwordSignupFields: 'USERNAME_AND_OPTIONAL_EMAIL'
 });
 
+Template.userlist.users = function () {
+  return Meteor.users.find(
+		{
+			 'profile.isStreaming': { $not: false}
+		},
+		{
+			fields: {'username': 1},
+			sort: {'username': 1}
+		}
+  	);
+};
+
 Template.user.selected = function () {
-  return Session.equals('selected_user', this._id) ? 'selected' : '';
+  	return Session.equals('selected_user', this._id) ? 'selected' : '';
 };
 
 Template.user.events({
-  'click': function () {
-    Session.set('selected_user', this._id);
-  }
+  	'click': function () {
+    	Session.set('selected_user', this._id);
+  	}
 });

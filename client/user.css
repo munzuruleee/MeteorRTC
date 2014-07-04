@@ -1,0 +1,6 @@
+.user.selected {
+  background-color: yellow;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+}
