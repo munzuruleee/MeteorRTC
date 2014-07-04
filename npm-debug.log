@@ -1,0 +1,619 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'meteorite' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose cache add [ 'meteorite', null ]
+5 verbose cache add name=undefined spec="meteorite" args=["meteorite",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'meteorite',
+6 verbose parsed url   path: 'meteorite',
+6 verbose parsed url   href: 'meteorite' }
+7 silly lockFile 8f2f99a9-meteorite meteorite
+8 verbose lock meteorite /home/movi/.npm/8f2f99a9-meteorite.lock
+9 silly lockFile 8f2f99a9-meteorite meteorite
+10 silly lockFile 8f2f99a9-meteorite meteorite
+11 verbose addNamed [ 'meteorite', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile bf6d5fee-meteorite meteorite@
+14 verbose lock meteorite@ /home/movi/.npm/bf6d5fee-meteorite.lock
+15 silly addNameRange { name: 'meteorite', range: '*', hasData: false }
+16 verbose url raw meteorite
+17 verbose url resolving [ 'http://registry.npmjs.org/', './meteorite' ]
+18 verbose url resolved http://registry.npmjs.org/meteorite
+19 info trying registry request attempt 1 at 12:08:23
+20 verbose etag "E3L54IGMIKM67KV586M929PF8"
+21 http GET http://registry.npmjs.org/meteorite
+22 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+23 info trying registry request attempt 2 at 12:08:53
+24 verbose etag "E3L54IGMIKM67KV586M929PF8"
+25 http GET http://registry.npmjs.org/meteorite
+26 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+27 info trying registry request attempt 3 at 12:10:13
+28 verbose etag "E3L54IGMIKM67KV586M929PF8"
+29 http GET http://registry.npmjs.org/meteorite
+30 silly registry.get cb [ 304, undefined ]
+31 verbose etag meteorite from cache
+32 silly addNameRange number 2 { name: 'meteorite', range: '*', hasData: true }
+33 silly addNameRange versions [ 'meteorite',
+33 silly addNameRange   [ '0.0.1',
+33 silly addNameRange     '0.0.2',
+33 silly addNameRange     '0.0.3',
+33 silly addNameRange     '0.0.4',
+33 silly addNameRange     '0.0.5',
+33 silly addNameRange     '0.0.6',
+33 silly addNameRange     '0.0.7',
+33 silly addNameRange     '0.0.8',
+33 silly addNameRange     '0.0.9',
+33 silly addNameRange     '0.0.10',
+33 silly addNameRange     '0.0.11',
+33 silly addNameRange     '0.0.12',
+33 silly addNameRange     '0.0.13',
+33 silly addNameRange     '0.0.14',
+33 silly addNameRange     '0.0.15',
+33 silly addNameRange     '0.0.16',
+33 silly addNameRange     '0.0.17',
+33 silly addNameRange     '0.0.18',
+33 silly addNameRange     '0.0.19',
+33 silly addNameRange     '0.1.0',
+33 silly addNameRange     '0.1.1',
+33 silly addNameRange     '0.2.0',
+33 silly addNameRange     '0.2.1',
+33 silly addNameRange     '0.2.2',
+33 silly addNameRange     '0.3.0',
+33 silly addNameRange     '0.3.1',
+33 silly addNameRange     '0.3.3',
+33 silly addNameRange     '0.4.0',
+33 silly addNameRange     '0.4.1',
+33 silly addNameRange     '0.4.2',
+33 silly addNameRange     '0.4.3',
+33 silly addNameRange     '0.4.4',
+33 silly addNameRange     '0.4.5',
+33 silly addNameRange     '0.4.6',
+33 silly addNameRange     '0.4.7',
+33 silly addNameRange     '0.4.8',
+33 silly addNameRange     '0.4.9',
+33 silly addNameRange     '0.5.0',
+33 silly addNameRange     '0.5.1',
+33 silly addNameRange     '0.6.0',
+33 silly addNameRange     '0.6.1',
+33 silly addNameRange     '0.6.2',
+33 silly addNameRange     '0.6.3',
+33 silly addNameRange     '0.6.4',
+33 silly addNameRange     '0.6.5',
+33 silly addNameRange     '0.6.6',
+33 silly addNameRange     '0.6.7',
+33 silly addNameRange     '0.6.8',
+33 silly addNameRange     '0.6.9',
+33 silly addNameRange     '0.6.10',
+33 silly addNameRange     '0.6.11',
+33 silly addNameRange     '0.6.12',
+33 silly addNameRange     '0.6.13',
+33 silly addNameRange     '0.6.14',
+33 silly addNameRange     '0.6.15',
+33 silly addNameRange     '0.6.16',
+33 silly addNameRange     '0.7.0',
+33 silly addNameRange     '0.7.1',
+33 silly addNameRange     '0.7.2',
+33 silly addNameRange     '0.7.3',
+33 silly addNameRange     '0.7.4' ] ]
+34 verbose addNamed [ 'meteorite', '0.7.4' ]
+35 verbose addNamed [ '0.7.4', '0.7.4' ]
+36 silly lockFile a59f90ce-meteorite-0-7-4 meteorite@0.7.4
+37 verbose lock meteorite@0.7.4 /home/movi/.npm/a59f90ce-meteorite-0-7-4.lock
+38 silly lockFile a59f90ce-meteorite-0-7-4 meteorite@0.7.4
+39 silly lockFile a59f90ce-meteorite-0-7-4 meteorite@0.7.4
+40 silly lockFile bf6d5fee-meteorite meteorite@
+41 silly lockFile bf6d5fee-meteorite meteorite@
+42 silly resolved [ { name: 'meteorite',
+42 silly resolved     version: '0.7.4',
+42 silly resolved     homepage: 'http://oortcloud.github.com/meteorite',
+42 silly resolved     engines: [ 'node >=0.8.0' ],
+42 silly resolved     description: 'Installer & smart package manager for Meteor',
+42 silly resolved     author:
+42 silly resolved      { name: 'Tom Coleman',
+42 silly resolved        email: 'tom@percolatestudio.com',
+42 silly resolved        url: 'http://percolatestudio.com' },
+42 silly resolved     dependencies:
+42 silly resolved      { ddp: '>=0.3.1 <0.5.0',
+42 silly resolved        underscore: '1.3.3',
+42 silly resolved        wrench: '1.3.9',
+42 silly resolved        fstream: '>=0.1.18',
+42 silly resolved        optimist: '>=0.3.4',
+42 silly resolved        prompt: '0.2.11',
+42 silly resolved        colors: '0.6.0-1',
+42 silly resolved        async: '0.2.9',
+42 silly resolved        rolling_timeout_exec: '>=0.0.1' },
+42 silly resolved     devDependencies: { mocha: '>=1.2.2', connect: '>=2.3.6', which: '>=1.0.5' },
+42 silly resolved     scripts:
+42 silly resolved      { test: 'mocha spec/unit spec/acceptance -t 240000 -R spec',
+42 silly resolved        flushcache: 'rm -rf spec/support/cache',
+42 silly resolved        postinstall: 'sh ./completions/postinstall.sh' },
+42 silly resolved     repository:
+42 silly resolved      { type: 'git',
+42 silly resolved        url: 'https://github.com/oortcloud/meteorite.git' },
+42 silly resolved     bin: { mrt: './bin/mrt.js' },
+42 silly resolved     readme: '# Meteorite\n\nMeteorite is a Meteor version manager and package manager. It provides an easy way to run different versions of meteor, use non-core packages, and to install packages from the [Atmosphere package repository](https://atmosphere.meteor.com/). \n\nMeteorite provides the command `mrt`, which can be used to add and install smart packages from atmosphere.\n\n``` sh\n# Create an app based on Meteor\'s devel branch.\n$ mrt create my-app --branch devel\n$ cd my-app\n# Install an Atmosphere package, recursively fetching dependencies.\n$ mrt add router\n# Check for and install any updates, and run the app.\n$ mrt\n```\n\n## Installing Meteorite\n\nMeteorite can be installed via [npm](https://npmjs.org/).\n\n``` sh\n$ npm install -g meteorite\n```\n\n### NOTE:\nIf your system requires root access to install global npm packages, make sure you use the `-H` flag:\n\n``` sh\n$ sudo -H npm install -g meteorite\n```\n\n## Updating from pre-0.6.0 Meteorite\n\nMeteorite now symlinks packages into the `packages/` directory of your app, so it\'s no longer necessary to run `mrt` when you want to start a server. Just make sure you `mrt install` in your app, and delete the `"meteor"` section from your `smart.json`. \n\nSubsequently, you can simply use `meteor` to run your development server, and just `mrt install` to ensure all packages are installed from atmosphere.\n\n### NOTES\n\n- Meteor is not officially supported on windows; you can run it thanks to [Tom Wijman\'s excellent work](http://win.meteor.com). However, meteorite\'s git based approach runs counter to the MSI installation that\'s required to get it working. So meteorite *does not* work under windows right now. Pull Requests which change this would be gladly accepted! Also, see [this blog post](http://www.discovermeteor.com/2013/03/20/using-meteor-and-atmopshere-on-windows/) for some information about how to use it.\n\n- You\'ll also need to ensure you have [git](http://git-scm.com) installed and available in your path. Also, you\'ll need to make sure that `mrt`\'s install location (usually `/usr/local/bin/`) is on your path.\n\n\n## Usage\n\n### `mrt add <package>`\n\nWorks like `meteor add`, but if the package isn\'t one of Meteor\'s included packages, it installs it from [Atmosphere](https://atmosphere.meteor.com).\n\nUnlike `meteor add`, only one package can be added at a time with `mrt add`.\n\n``` sh\n# Add the latest version of the moment package on Atmosphere.\n$ mrt add moment\n# Add a specific version of a package.\n$ mrt add router --pkg-version 0.3.4\n# Meteorite will install page.js too, because router depends on it.\n```\n\n### `mrt remove <package>`\n\nSimilarly, removes a package from `smart.json`, and unlinks it from your project (as well as telling Meteor not to use it).\n\n### `mrt install`\n\nInstall all packages listed in `smart.json` that aren\'t already installed on your machine. Use this command if you are working collaboratively and your colleagues install new packages.\n\n### `mrt update`\n\nInstalls any available updates to the app\'s desired Meteor version and packages.\n\n### `mrt create <name>`\n\nWorks like `meteor create`, but you can specify the desired branch, tag or reference of [Meteor\'s git repository](https://github.com/meteor/meteor) that the app should be based on.\n\n``` sh\n# By default, apps are based on Meteor\'s master branch.\n$ mrt create cool-app\n# You can create apps based on a branch of Meteor\'s repo.\n$ mrt create risky-app --branch devel\n# Or, on a tag (such as version numbers).\n$ mrt create safe-app --tag v0.5.4\n# Or, or on a commit.\n$ mrt create choosy-app --ref a9a717\n```\n\n### `mrt create-package [path/to/]foo`\n\nPuts the basic building blocks down for creating a package named `foo`, (potentially in a sub directory, usually `packages/`).\n\n### `mrt link-package path/to/foo`\n\nLinks `packages/foo` to `path/to/foo` so that you can use a local version without changing `smart.json`. Useful for quick changes to a package you maintain when developing an application. \n\nNote that `mrt install` or `mrt` will _overwrite_ this link if you also have `foo` in your `smart.json` (which you probably will). This may change in the future.\n\n## Options\n\nOptions can be passed at the very end of the command.\n\n### `--verbose`\n\nLog debug information to the console.\n\nExample: `mrt add crypto-sha1 --verbose`\n\n## Deprecated commands\n\nAs Meteorite now installs packages into the `packages/` directory, you can simply run `meteor` to start your app. You may need to run `mrt install` first.\nYou can run any meteor executable you like (e.g. from a checkout somewhere on your machine). \n\n### `mrt`\n\nWorks like `meteor`, but checks and installs the app\'s desired Meteor version and package dependencies before running the app. You may still want to use this, but it\'s no longer the official way to use Meteorite.\n\nIf however you want to use a forked version of Meteor in your project, you can still list it in your `smart.json`, and Meteorite will run it via `mrt`. (Of course you could just run it directly from a checkout too, which may be simpler).\n\n### Other commands\n\nWhen Meteorite is executed for an app, it checks or installs the app\'s desired Meteor version, packages and dependencies, then does the required book-keeping (described below), and finally passes the command onto `meteor`.\n\n## Permission woes?\n\nIt is *not* required that you run `sudo mrt`. If you do so, your home directory will pick up some root-owned files and you\'ll struggle to run `mrt` without `sudo` from then on. This isn\'t good.\n\nTo fix the problem, try cleaning up potentially "sudo-ed" files:\n\n```bash\nsudo mrt uninstall\nsudo mrt uninstall --system\nsudo chown -R `whoami` ~/.npm\n```\n\nIf possible, try not to install Meteorite as root either. If you have permissions problems, make sure you install with `sudo -H npm install -g meteorite`. If you\'ve installed without `-H`, your `~/.npm` directory will be owned by root and you should run the `chown` command above to fix it.\n\n\n\n## How Meteorite works\n\nApps tell Meteorite the Meteor version and packages they want with a file called `smart.json` in their root directory. Meteorite will install those dependencies the next time it is executed within that app.\n\nMeteorite writes to a `smart.lock` file in the app\'s root directory to track the exact versions of its dependencies, even when it\'s set up in a fresh environment. You should check the `smart.lock` file into your app\'s version control, to ensure that other developers are running the same versions of the dependencies. Any changes in `smart.json` take precendency over `smart.lock`. The `smart.lock` file is reset with the `mrt update` command.\n\n### Example `smart.json`\n\nThe `meteor` property is not required: apps will depend on Meteor\'s master branch by default. You can specify `meteor.branch`, `meteor.tag` or `meteor.git` to use alternate branches, tags and forks respectively. Note that `meteor.git` expects an actual URL, use `ssh://git@github.com/meteor/meteor.git` instead of `git@github.com:meteor/meteor.git`.\n\n``` json\n{\n  "packages": {\n    "moment": {},\n    "router": "0.3.4",\n    "roles": {\n      "version": "1.0.1"\n    },\n    "accounts-persona": {\n      "git": "https://github.com/vladikoff/meteor-accounts-persona"\n    },\n    "normalize.css": {\n      "git": "https://github.com/rithis/meteor-normalize.css",\n      "tag": "v2.0.1"\n    },\n    "branch-of-package": {\n      "git": "https://github.com/EventedMind/iron-router.git",\n      "branch": "dev"\n    },\n    "my-experiment": {\n      "path": "/path/to/local/package"\n    }\n  }\n}\n```\n\n## Writing Meteorite packages\n\nMeteorite packages include a `smart.json` file in their root directory to provide information about the package, and to list their dependencies. For an example, see [Meteor Router\'s `smart.json`](https://github.com/tmeasday/meteor-router/blob/master/smart.json).\n\nMeteorite packages also include a `package.js` file in their root directory to tell Meteorite how it should be installed. For an example, see [Meteor Roles\' `package.js`](https://github.com/alanning/meteor-roles/blob/master/roles/package.js).\n\nSee [Atmosphere\'s documentation on writing packages](https://atmosphere.meteor.com/wtf/package) for more information.\n\n## Bash Completion\n\nUse Meteorite\'s bash completion by sourcing it in your .bashrc or .bash_profile.\n\nDepending on where you installed Meteorite:\n\n```bash\nif [ -f /path/to/meteorite/completions/mrt.bash ]; then\n  . /path/to/meteorite/completions/mrt.bash\nfi\n```\n\nAlternatively, you can create a symbolic link under bash_completion.d:\n\n```bash\nln -s /path/to/meteorite/completions/mrt.bash /path/to/bash_completion.d/mrt\n```\n\n## Running Meteorite In a Git Hook Script\n\nIf you encounter checkout errors while running `mrt install` or `mrt update` within a Git hook script, it is because `GIT_DIR` is set to an unexpected value when running within a hook. The solution is to temporarily unset it just before running the `mrt` command.\n\n```bash\n(unset GIT_DIR; mrt update)\n```\n\n## Contributing\n\nContributions to meteorite are very welcome! Please see the [Contribution Guide](https://github.com/oortcloud/meteorite/blob/master/CONTRIBUTING.md) for details.\n',
+42 silly resolved     readmeFilename: 'README.md',
+42 silly resolved     bugs: { url: 'https://github.com/oortcloud/meteorite/issues' },
+42 silly resolved     _id: 'meteorite@0.7.4',
+42 silly resolved     _from: 'meteorite@' } ]
+43 info install meteorite@0.7.4 into /usr/local/lib
+44 info installOne meteorite@0.7.4
+45 info /usr/local/lib/node_modules/meteorite unbuild
+46 verbose tar unpack /home/movi/.npm/meteorite/0.7.4/package.tgz
+47 silly lockFile 91db5695-local-lib-node-modules-meteorite tar:///usr/local/lib/node_modules/meteorite
+48 verbose lock tar:///usr/local/lib/node_modules/meteorite /home/movi/.npm/91db5695-local-lib-node-modules-meteorite.lock
+49 silly lockFile 8f510279--npm-meteorite-0-7-4-package-tgz tar:///home/movi/.npm/meteorite/0.7.4/package.tgz
+50 verbose lock tar:///home/movi/.npm/meteorite/0.7.4/package.tgz /home/movi/.npm/8f510279--npm-meteorite-0-7-4-package-tgz.lock
+51 silly gunzTarPerm modes [ '755', '644' ]
+52 silly gunzTarPerm extractEntry package.json
+53 silly gunzTarPerm extractEntry README.md
+54 silly gunzTarPerm extractEntry CHANGELOG.md
+55 silly gunzTarPerm extractEntry CONTRIBUTING.md
+56 silly gunzTarPerm extractEntry LICENSE.txt
+57 silly gunzTarPerm extractEntry bin/mrt.js
+58 silly gunzTarPerm extractEntry completions/mrt.bash
+59 silly gunzTarPerm extractEntry completions/postinstall.sh
+60 silly gunzTarPerm extractEntry lib/atmosphere.js
+61 silly gunzTarPerm extractEntry lib/config.js
+62 silly gunzTarPerm extractEntry lib/console.js
+63 silly gunzTarPerm extractEntry lib/debug.js
+64 silly gunzTarPerm extractEntry lib/command.js
+65 silly gunzTarPerm extractEntry lib/meteor.js
+66 silly gunzTarPerm extractEntry lib/meteorite.js
+67 silly gunzTarPerm extractEntry lib/project.js
+68 silly gunzTarPerm extractEntry lib/utils/fs.js
+69 silly gunzTarPerm extractEntry lib/utils/git.js
+70 silly gunzTarPerm extractEntry lib/sources/git.js
+71 silly gunzTarPerm extractEntry lib/sources/local.js
+72 silly gunzTarPerm extractEntry lib/sources/source.js
+73 silly gunzTarPerm extractEntry lib/dependencies/dependencies.js
+74 silly gunzTarPerm extractEntry lib/dependencies/package.js
+75 silly gunzTarPerm extractEntry lib/dependencies/resolver.js
+76 silly lockFile 91db5695-local-lib-node-modules-meteorite tar:///usr/local/lib/node_modules/meteorite
+77 silly lockFile 91db5695-local-lib-node-modules-meteorite tar:///usr/local/lib/node_modules/meteorite
+78 silly lockFile 8f510279--npm-meteorite-0-7-4-package-tgz tar:///home/movi/.npm/meteorite/0.7.4/package.tgz
+79 silly lockFile 8f510279--npm-meteorite-0-7-4-package-tgz tar:///home/movi/.npm/meteorite/0.7.4/package.tgz
+80 info preinstall meteorite@0.7.4
+81 verbose readDependencies using package.json deps
+82 verbose readDependencies using package.json deps
+83 verbose cache add [ 'ddp@>=0.3.1 <0.5.0', null ]
+84 verbose cache add name=undefined spec="ddp@>=0.3.1 <0.5.0" args=["ddp@>=0.3.1 <0.5.0",null]
+85 verbose parsed url { protocol: null,
+85 verbose parsed url   slashes: null,
+85 verbose parsed url   auth: null,
+85 verbose parsed url   host: null,
+85 verbose parsed url   port: null,
+85 verbose parsed url   hostname: null,
+85 verbose parsed url   hash: null,
+85 verbose parsed url   search: null,
+85 verbose parsed url   query: null,
+85 verbose parsed url   pathname: 'ddp@%3E=0.3.1%20%3C0.5.0',
+85 verbose parsed url   path: 'ddp@%3E=0.3.1%20%3C0.5.0',
+85 verbose parsed url   href: 'ddp@%3E=0.3.1%20%3C0.5.0' }
+86 verbose cache add name="ddp" spec=">=0.3.1 <0.5.0" args=["ddp",">=0.3.1 <0.5.0"]
+87 verbose parsed url { protocol: null,
+87 verbose parsed url   slashes: null,
+87 verbose parsed url   auth: null,
+87 verbose parsed url   host: null,
+87 verbose parsed url   port: null,
+87 verbose parsed url   hostname: null,
+87 verbose parsed url   hash: null,
+87 verbose parsed url   search: null,
+87 verbose parsed url   query: null,
+87 verbose parsed url   pathname: '%3E=0.3.1%20%3C0.5.0',
+87 verbose parsed url   path: '%3E=0.3.1%20%3C0.5.0',
+87 verbose parsed url   href: '%3E=0.3.1%20%3C0.5.0' }
+88 verbose addNamed [ 'ddp', '>=0.3.1 <0.5.0' ]
+89 verbose addNamed [ null, '>=0.3.1 <0.5.0-0' ]
+90 silly lockFile 232233a1-ddp-0-3-1-0-5-0 ddp@>=0.3.1 <0.5.0
+91 verbose lock ddp@>=0.3.1 <0.5.0 /home/movi/.npm/232233a1-ddp-0-3-1-0-5-0.lock
+92 verbose cache add [ 'underscore@1.3.3', null ]
+93 verbose cache add name=undefined spec="underscore@1.3.3" args=["underscore@1.3.3",null]
+94 verbose parsed url { protocol: null,
+94 verbose parsed url   slashes: null,
+94 verbose parsed url   auth: null,
+94 verbose parsed url   host: null,
+94 verbose parsed url   port: null,
+94 verbose parsed url   hostname: null,
+94 verbose parsed url   hash: null,
+94 verbose parsed url   search: null,
+94 verbose parsed url   query: null,
+94 verbose parsed url   pathname: 'underscore@1.3.3',
+94 verbose parsed url   path: 'underscore@1.3.3',
+94 verbose parsed url   href: 'underscore@1.3.3' }
+95 verbose cache add name="underscore" spec="1.3.3" args=["underscore","1.3.3"]
+96 verbose parsed url { protocol: null,
+96 verbose parsed url   slashes: null,
+96 verbose parsed url   auth: null,
+96 verbose parsed url   host: null,
+96 verbose parsed url   port: null,
+96 verbose parsed url   hostname: null,
+96 verbose parsed url   hash: null,
+96 verbose parsed url   search: null,
+96 verbose parsed url   query: null,
+96 verbose parsed url   pathname: '1.3.3',
+96 verbose parsed url   path: '1.3.3',
+96 verbose parsed url   href: '1.3.3' }
+97 verbose addNamed [ 'underscore', '1.3.3' ]
+98 verbose addNamed [ '1.3.3', '1.3.3' ]
+99 silly lockFile 99e765c4-underscore-1-3-3 underscore@1.3.3
+100 verbose lock underscore@1.3.3 /home/movi/.npm/99e765c4-underscore-1-3-3.lock
+101 verbose cache add [ 'wrench@1.3.9', null ]
+102 verbose cache add name=undefined spec="wrench@1.3.9" args=["wrench@1.3.9",null]
+103 verbose parsed url { protocol: null,
+103 verbose parsed url   slashes: null,
+103 verbose parsed url   auth: null,
+103 verbose parsed url   host: null,
+103 verbose parsed url   port: null,
+103 verbose parsed url   hostname: null,
+103 verbose parsed url   hash: null,
+103 verbose parsed url   search: null,
+103 verbose parsed url   query: null,
+103 verbose parsed url   pathname: 'wrench@1.3.9',
+103 verbose parsed url   path: 'wrench@1.3.9',
+103 verbose parsed url   href: 'wrench@1.3.9' }
+104 verbose cache add name="wrench" spec="1.3.9" args=["wrench","1.3.9"]
+105 verbose parsed url { protocol: null,
+105 verbose parsed url   slashes: null,
+105 verbose parsed url   auth: null,
+105 verbose parsed url   host: null,
+105 verbose parsed url   port: null,
+105 verbose parsed url   hostname: null,
+105 verbose parsed url   hash: null,
+105 verbose parsed url   search: null,
+105 verbose parsed url   query: null,
+105 verbose parsed url   pathname: '1.3.9',
+105 verbose parsed url   path: '1.3.9',
+105 verbose parsed url   href: '1.3.9' }
+106 verbose addNamed [ 'wrench', '1.3.9' ]
+107 verbose addNamed [ '1.3.9', '1.3.9' ]
+108 silly lockFile de31968e-wrench-1-3-9 wrench@1.3.9
+109 verbose lock wrench@1.3.9 /home/movi/.npm/de31968e-wrench-1-3-9.lock
+110 silly addNameRange { name: 'ddp', range: '>=0.3.1 <0.5.0-0', hasData: false }
+111 verbose cache add [ 'fstream@>=0.1.18', null ]
+112 verbose cache add name=undefined spec="fstream@>=0.1.18" args=["fstream@>=0.1.18",null]
+113 verbose parsed url { protocol: null,
+113 verbose parsed url   slashes: null,
+113 verbose parsed url   auth: null,
+113 verbose parsed url   host: null,
+113 verbose parsed url   port: null,
+113 verbose parsed url   hostname: null,
+113 verbose parsed url   hash: null,
+113 verbose parsed url   search: null,
+113 verbose parsed url   query: null,
+113 verbose parsed url   pathname: 'fstream@%3E=0.1.18',
+113 verbose parsed url   path: 'fstream@%3E=0.1.18',
+113 verbose parsed url   href: 'fstream@%3E=0.1.18' }
+114 verbose cache add name="fstream" spec=">=0.1.18" args=["fstream",">=0.1.18"]
+115 verbose parsed url { protocol: null,
+115 verbose parsed url   slashes: null,
+115 verbose parsed url   auth: null,
+115 verbose parsed url   host: null,
+115 verbose parsed url   port: null,
+115 verbose parsed url   hostname: null,
+115 verbose parsed url   hash: null,
+115 verbose parsed url   search: null,
+115 verbose parsed url   query: null,
+115 verbose parsed url   pathname: '%3E=0.1.18',
+115 verbose parsed url   path: '%3E=0.1.18',
+115 verbose parsed url   href: '%3E=0.1.18' }
+116 verbose addNamed [ 'fstream', '>=0.1.18' ]
+117 verbose addNamed [ null, '>=0.1.18' ]
+118 silly lockFile 5141b154-fstream-0-1-18 fstream@>=0.1.18
+119 verbose lock fstream@>=0.1.18 /home/movi/.npm/5141b154-fstream-0-1-18.lock
+120 verbose url raw ddp
+121 verbose url resolving [ 'http://registry.npmjs.org/', './ddp' ]
+122 verbose url resolved http://registry.npmjs.org/ddp
+123 info trying registry request attempt 1 at 12:10:34
+124 http GET http://registry.npmjs.org/ddp
+125 verbose cache add [ 'optimist@>=0.3.4', null ]
+126 verbose cache add name=undefined spec="optimist@>=0.3.4" args=["optimist@>=0.3.4",null]
+127 verbose parsed url { protocol: null,
+127 verbose parsed url   slashes: null,
+127 verbose parsed url   auth: null,
+127 verbose parsed url   host: null,
+127 verbose parsed url   port: null,
+127 verbose parsed url   hostname: null,
+127 verbose parsed url   hash: null,
+127 verbose parsed url   search: null,
+127 verbose parsed url   query: null,
+127 verbose parsed url   pathname: 'optimist@%3E=0.3.4',
+127 verbose parsed url   path: 'optimist@%3E=0.3.4',
+127 verbose parsed url   href: 'optimist@%3E=0.3.4' }
+128 verbose cache add name="optimist" spec=">=0.3.4" args=["optimist",">=0.3.4"]
+129 verbose parsed url { protocol: null,
+129 verbose parsed url   slashes: null,
+129 verbose parsed url   auth: null,
+129 verbose parsed url   host: null,
+129 verbose parsed url   port: null,
+129 verbose parsed url   hostname: null,
+129 verbose parsed url   hash: null,
+129 verbose parsed url   search: null,
+129 verbose parsed url   query: null,
+129 verbose parsed url   pathname: '%3E=0.3.4',
+129 verbose parsed url   path: '%3E=0.3.4',
+129 verbose parsed url   href: '%3E=0.3.4' }
+130 verbose addNamed [ 'optimist', '>=0.3.4' ]
+131 verbose addNamed [ null, '>=0.3.4' ]
+132 silly lockFile 748708ed-optimist-0-3-4 optimist@>=0.3.4
+133 verbose lock optimist@>=0.3.4 /home/movi/.npm/748708ed-optimist-0-3-4.lock
+134 verbose url raw underscore/1.3.3
+135 verbose url resolving [ 'http://registry.npmjs.org/', './underscore/1.3.3' ]
+136 verbose url resolved http://registry.npmjs.org/underscore/1.3.3
+137 info trying registry request attempt 1 at 12:10:34
+138 http GET http://registry.npmjs.org/underscore/1.3.3
+139 verbose cache add [ 'prompt@0.2.11', null ]
+140 verbose cache add name=undefined spec="prompt@0.2.11" args=["prompt@0.2.11",null]
+141 verbose parsed url { protocol: null,
+141 verbose parsed url   slashes: null,
+141 verbose parsed url   auth: null,
+141 verbose parsed url   host: null,
+141 verbose parsed url   port: null,
+141 verbose parsed url   hostname: null,
+141 verbose parsed url   hash: null,
+141 verbose parsed url   search: null,
+141 verbose parsed url   query: null,
+141 verbose parsed url   pathname: 'prompt@0.2.11',
+141 verbose parsed url   path: 'prompt@0.2.11',
+141 verbose parsed url   href: 'prompt@0.2.11' }
+142 verbose cache add name="prompt" spec="0.2.11" args=["prompt","0.2.11"]
+143 verbose parsed url { protocol: null,
+143 verbose parsed url   slashes: null,
+143 verbose parsed url   auth: null,
+143 verbose parsed url   host: null,
+143 verbose parsed url   port: null,
+143 verbose parsed url   hostname: null,
+143 verbose parsed url   hash: null,
+143 verbose parsed url   search: null,
+143 verbose parsed url   query: null,
+143 verbose parsed url   pathname: '0.2.11',
+143 verbose parsed url   path: '0.2.11',
+143 verbose parsed url   href: '0.2.11' }
+144 verbose addNamed [ 'prompt', '0.2.11' ]
+145 verbose addNamed [ '0.2.11', '0.2.11' ]
+146 silly lockFile 61856ab9-prompt-0-2-11 prompt@0.2.11
+147 verbose lock prompt@0.2.11 /home/movi/.npm/61856ab9-prompt-0-2-11.lock
+148 verbose cache add [ 'colors@0.6.0-1', null ]
+149 verbose cache add name=undefined spec="colors@0.6.0-1" args=["colors@0.6.0-1",null]
+150 verbose parsed url { protocol: null,
+150 verbose parsed url   slashes: null,
+150 verbose parsed url   auth: null,
+150 verbose parsed url   host: null,
+150 verbose parsed url   port: null,
+150 verbose parsed url   hostname: null,
+150 verbose parsed url   hash: null,
+150 verbose parsed url   search: null,
+150 verbose parsed url   query: null,
+150 verbose parsed url   pathname: 'colors@0.6.0-1',
+150 verbose parsed url   path: 'colors@0.6.0-1',
+150 verbose parsed url   href: 'colors@0.6.0-1' }
+151 verbose cache add name="colors" spec="0.6.0-1" args=["colors","0.6.0-1"]
+152 verbose parsed url { protocol: null,
+152 verbose parsed url   slashes: null,
+152 verbose parsed url   auth: null,
+152 verbose parsed url   host: null,
+152 verbose parsed url   port: null,
+152 verbose parsed url   hostname: null,
+152 verbose parsed url   hash: null,
+152 verbose parsed url   search: null,
+152 verbose parsed url   query: null,
+152 verbose parsed url   pathname: '0.6.0-1',
+152 verbose parsed url   path: '0.6.0-1',
+152 verbose parsed url   href: '0.6.0-1' }
+153 verbose addNamed [ 'colors', '0.6.0-1' ]
+154 verbose addNamed [ '0.6.0-1', '0.6.0-1' ]
+155 silly lockFile 02eba27f-colors-0-6-0-1 colors@0.6.0-1
+156 verbose lock colors@0.6.0-1 /home/movi/.npm/02eba27f-colors-0-6-0-1.lock
+157 silly addNameRange { name: 'fstream', range: '>=0.1.18', hasData: false }
+158 verbose url raw wrench/1.3.9
+159 verbose url resolving [ 'http://registry.npmjs.org/', './wrench/1.3.9' ]
+160 verbose url resolved http://registry.npmjs.org/wrench/1.3.9
+161 info trying registry request attempt 1 at 12:10:34
+162 http GET http://registry.npmjs.org/wrench/1.3.9
+163 verbose cache add [ 'async@0.2.9', null ]
+164 verbose cache add name=undefined spec="async@0.2.9" args=["async@0.2.9",null]
+165 verbose parsed url { protocol: null,
+165 verbose parsed url   slashes: null,
+165 verbose parsed url   auth: null,
+165 verbose parsed url   host: null,
+165 verbose parsed url   port: null,
+165 verbose parsed url   hostname: null,
+165 verbose parsed url   hash: null,
+165 verbose parsed url   search: null,
+165 verbose parsed url   query: null,
+165 verbose parsed url   pathname: 'async@0.2.9',
+165 verbose parsed url   path: 'async@0.2.9',
+165 verbose parsed url   href: 'async@0.2.9' }
+166 verbose cache add name="async" spec="0.2.9" args=["async","0.2.9"]
+167 verbose parsed url { protocol: null,
+167 verbose parsed url   slashes: null,
+167 verbose parsed url   auth: null,
+167 verbose parsed url   host: null,
+167 verbose parsed url   port: null,
+167 verbose parsed url   hostname: null,
+167 verbose parsed url   hash: null,
+167 verbose parsed url   search: null,
+167 verbose parsed url   query: null,
+167 verbose parsed url   pathname: '0.2.9',
+167 verbose parsed url   path: '0.2.9',
+167 verbose parsed url   href: '0.2.9' }
+168 verbose addNamed [ 'async', '0.2.9' ]
+169 verbose addNamed [ '0.2.9', '0.2.9' ]
+170 silly lockFile be62480b-async-0-2-9 async@0.2.9
+171 verbose lock async@0.2.9 /home/movi/.npm/be62480b-async-0-2-9.lock
+172 verbose cache add [ 'rolling_timeout_exec@>=0.0.1', null ]
+173 verbose cache add name=undefined spec="rolling_timeout_exec@>=0.0.1" args=["rolling_timeout_exec@>=0.0.1",null]
+174 verbose parsed url { protocol: null,
+174 verbose parsed url   slashes: null,
+174 verbose parsed url   auth: null,
+174 verbose parsed url   host: null,
+174 verbose parsed url   port: null,
+174 verbose parsed url   hostname: null,
+174 verbose parsed url   hash: null,
+174 verbose parsed url   search: null,
+174 verbose parsed url   query: null,
+174 verbose parsed url   pathname: 'rolling_timeout_exec@%3E=0.0.1',
+174 verbose parsed url   path: 'rolling_timeout_exec@%3E=0.0.1',
+174 verbose parsed url   href: 'rolling_timeout_exec@%3E=0.0.1' }
+175 verbose cache add name="rolling_timeout_exec" spec=">=0.0.1" args=["rolling_timeout_exec",">=0.0.1"]
+176 verbose parsed url { protocol: null,
+176 verbose parsed url   slashes: null,
+176 verbose parsed url   auth: null,
+176 verbose parsed url   host: null,
+176 verbose parsed url   port: null,
+176 verbose parsed url   hostname: null,
+176 verbose parsed url   hash: null,
+176 verbose parsed url   search: null,
+176 verbose parsed url   query: null,
+176 verbose parsed url   pathname: '%3E=0.0.1',
+176 verbose parsed url   path: '%3E=0.0.1',
+176 verbose parsed url   href: '%3E=0.0.1' }
+177 verbose addNamed [ 'rolling_timeout_exec', '>=0.0.1' ]
+178 verbose addNamed [ null, '>=0.0.1' ]
+179 silly lockFile dd046e26-rolling-timeout-exec-0-0-1 rolling_timeout_exec@>=0.0.1
+180 verbose lock rolling_timeout_exec@>=0.0.1 /home/movi/.npm/dd046e26-rolling-timeout-exec-0-0-1.lock
+181 silly addNameRange { name: 'optimist', range: '>=0.3.4', hasData: false }
+182 verbose url raw fstream
+183 verbose url resolving [ 'http://registry.npmjs.org/', './fstream' ]
+184 verbose url resolved http://registry.npmjs.org/fstream
+185 info trying registry request attempt 1 at 12:10:34
+186 http GET http://registry.npmjs.org/fstream
+187 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+188 verbose url raw prompt/0.2.11
+189 verbose url resolving [ 'http://registry.npmjs.org/', './prompt/0.2.11' ]
+190 verbose url resolved http://registry.npmjs.org/prompt/0.2.11
+191 info trying registry request attempt 1 at 12:10:54
+192 http GET http://registry.npmjs.org/prompt/0.2.11
+193 silly addNameRange { name: 'rolling_timeout_exec',
+193 silly addNameRange   range: '>=0.0.1',
+193 silly addNameRange   hasData: false }
+194 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+195 verbose url raw rolling_timeout_exec
+196 verbose url resolving [ 'http://registry.npmjs.org/', './rolling_timeout_exec' ]
+197 verbose url resolved http://registry.npmjs.org/rolling_timeout_exec
+198 info trying registry request attempt 1 at 12:10:54
+199 http GET http://registry.npmjs.org/rolling_timeout_exec
+200 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+201 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+202 verbose url raw optimist
+203 verbose url resolving [ 'http://registry.npmjs.org/', './optimist' ]
+204 verbose url resolved http://registry.npmjs.org/optimist
+205 info trying registry request attempt 1 at 12:10:54
+206 verbose etag "3KVQ97E8OBB11GH7ZR33V2B3A"
+207 http GET http://registry.npmjs.org/optimist
+208 verbose url raw colors/0.6.0-1
+209 verbose url resolving [ 'http://registry.npmjs.org/', './colors/0.6.0-1' ]
+210 verbose url resolved http://registry.npmjs.org/colors/0.6.0-1
+211 info trying registry request attempt 1 at 12:10:54
+212 verbose etag "8AJHEWCMEF2NU7QB8LY5JK4TS"
+213 http GET http://registry.npmjs.org/colors/0.6.0-1
+214 verbose url raw async/0.2.9
+215 verbose url resolving [ 'http://registry.npmjs.org/', './async/0.2.9' ]
+216 verbose url resolved http://registry.npmjs.org/async/0.2.9
+217 info trying registry request attempt 1 at 12:10:54
+218 verbose etag "311BUKHS75SMK8D0M52WYLK3H"
+219 http GET http://registry.npmjs.org/async/0.2.9
+220 info trying registry request attempt 2 at 12:11:04
+221 http GET http://registry.npmjs.org/ddp
+222 info trying registry request attempt 2 at 12:11:04
+223 http GET http://registry.npmjs.org/wrench/1.3.9
+224 info trying registry request attempt 2 at 12:11:04
+225 http GET http://registry.npmjs.org/underscore/1.3.3
+226 info trying registry request attempt 2 at 12:11:04
+227 http GET http://registry.npmjs.org/fstream
+228 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+229 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+230 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+231 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+232 info trying registry request attempt 2 at 12:11:24
+233 http GET http://registry.npmjs.org/prompt/0.2.11
+234 info trying registry request attempt 2 at 12:11:24
+235 http GET http://registry.npmjs.org/rolling_timeout_exec
+236 info trying registry request attempt 2 at 12:11:24
+237 verbose etag "3KVQ97E8OBB11GH7ZR33V2B3A"
+238 http GET http://registry.npmjs.org/optimist
+239 info trying registry request attempt 2 at 12:11:24
+240 verbose etag "8AJHEWCMEF2NU7QB8LY5JK4TS"
+241 http GET http://registry.npmjs.org/colors/0.6.0-1
+242 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+243 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+244 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+245 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+246 info trying registry request attempt 2 at 12:11:44
+247 verbose etag "311BUKHS75SMK8D0M52WYLK3H"
+248 http GET http://registry.npmjs.org/async/0.2.9
+249 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+250 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+251 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+252 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+253 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+254 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+255 info trying registry request attempt 3 at 12:12:34
+256 http GET http://registry.npmjs.org/ddp
+257 info trying registry request attempt 3 at 12:12:34
+258 http GET http://registry.npmjs.org/wrench/1.3.9
+259 info trying registry request attempt 3 at 12:12:34
+260 http GET http://registry.npmjs.org/underscore/1.3.3
+261 info trying registry request attempt 3 at 12:12:54
+262 http GET http://registry.npmjs.org/fstream
+263 info trying registry request attempt 3 at 12:12:54
+264 http GET http://registry.npmjs.org/prompt/0.2.11
+265 info trying registry request attempt 3 at 12:12:54
+266 http GET http://registry.npmjs.org/rolling_timeout_exec
+267 silly lockFile 232233a1-ddp-0-3-1-0-5-0 ddp@>=0.3.1 <0.5.0
+268 silly lockFile 232233a1-ddp-0-3-1-0-5-0 ddp@>=0.3.1 <0.5.0
+269 silly lockFile de31968e-wrench-1-3-9 wrench@1.3.9
+270 silly lockFile de31968e-wrench-1-3-9 wrench@1.3.9
+271 verbose about to build /usr/local/lib/node_modules/meteorite
+272 info /usr/local/lib/node_modules/meteorite unbuild
+273 info preuninstall meteorite@0.7.4
+274 info trying registry request attempt 3 at 12:12:54
+275 verbose etag "3KVQ97E8OBB11GH7ZR33V2B3A"
+276 http GET http://registry.npmjs.org/optimist
+277 silly lockFile 99e765c4-underscore-1-3-3 underscore@1.3.3
+278 silly lockFile 99e765c4-underscore-1-3-3 underscore@1.3.3
+279 info trying registry request attempt 3 at 12:13:14
+280 verbose etag "8AJHEWCMEF2NU7QB8LY5JK4TS"
+281 http GET http://registry.npmjs.org/colors/0.6.0-1
+282 info trying registry request attempt 3 at 12:13:14
+283 verbose etag "311BUKHS75SMK8D0M52WYLK3H"
+284 http GET http://registry.npmjs.org/async/0.2.9
+285 silly lockFile 5141b154-fstream-0-1-18 fstream@>=0.1.18
+286 silly lockFile 5141b154-fstream-0-1-18 fstream@>=0.1.18
+287 info uninstall meteorite@0.7.4
+288 silly lockFile 61856ab9-prompt-0-2-11 prompt@0.2.11
+289 silly lockFile 61856ab9-prompt-0-2-11 prompt@0.2.11
+290 silly lockFile dd046e26-rolling-timeout-exec-0-0-1 rolling_timeout_exec@>=0.0.1
+291 silly lockFile dd046e26-rolling-timeout-exec-0-0-1 rolling_timeout_exec@>=0.0.1
+292 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild meteorite@0.7.4
+293 verbose /usr/local/bin,[object Object] binRoot
+294 info postuninstall meteorite@0.7.4
+295 error network getaddrinfo ENOTFOUND
+295 error network This is most likely not a problem with npm itself
+295 error network and is related to network connectivity.
+295 error network In most cases you are behind a proxy or have bad network settings.
+295 error network
+295 error network If you are behind a proxy, please make sure that the
+295 error network 'proxy' config is set properly.  See: 'npm help config'
+296 error System Linux 3.13.0-30-generic
+297 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "meteorite"
+298 error cwd /home/movi/Workspace/MeteorRTC
+299 error node -v v0.10.26
+300 error npm -v 1.4.3
+301 error syscall getaddrinfo
+302 error code ENOTFOUND
+303 error errno ENOTFOUND
+304 verbose exit [ 1, true ]
