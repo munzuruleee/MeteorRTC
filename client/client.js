@@ -1,11 +1,15 @@
-Template.hello.greeting = function () {
-  return "Welcome to MeteorRTC.";
+Meteor.subscribe('users');
+
+Accounts.ui.config({
+  passwordSignupFields: 'USERNAME_AND_OPTIONAL_EMAIL'
+});
+
+Template.user.selected = function () {
+  return Session.equals('selected_user', this._id) ? 'selected' : '';
 };
 
-Template.hello.events({
-  'click input': function () {
-    // template data, if any, is available in 'this'
-    if (typeof console !== 'undefined')
-      console.log("You pressed the button");
+Template.user.events({
+  'click': function () {
+    Session.set('selected_user', this._id);
   }
 });
