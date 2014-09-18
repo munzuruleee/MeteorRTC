@@ -1,0 +1,14 @@
+.localCam {
+	display: inline-block;
+	top: 15px;
+	right: 15px;
+	float: right;
+}
+
+
+.remoteStreams{
+	display: inline-block;
+	top: 15px;
+	right: 15px;
+	float: left;
+}

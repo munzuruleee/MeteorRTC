@@ -1,1 +1,1 @@
-webRtcStream = new Meteor.Stream('webRTC');
+stream = new Meteor.Stream('webRTC');
