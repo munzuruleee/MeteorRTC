@@ -5,6 +5,12 @@
 	float: right;
 }
 
+.localCam video {
+    border: 5px solid rgb(119, 119, 119);
+    outline: 0px none;
+    height: 240px;
+    width: 320px;
+}
 
 .remoteStreams{
 	display: inline-block;

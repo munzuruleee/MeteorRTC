@@ -3,16 +3,18 @@ Accounts.ui.config({
   	passwordSignupFields: 'USERNAME_AND_OPTIONAL_EMAIL'
 });
 
-Template.userlist.users = function() {
-  return Meteor.users.find(
-		{
-			'profile.isStreaming': { $not: false}
-		},
-		{
-			sort: {'username': 1}
-		}
-  	);
-};
+Template.userlist.helpers({
+	users: function () {
+	  	return Meteor.users.find(
+			{
+				'profile.isStreaming': { $not: false}
+			},
+			{
+				sort: {'username': 1}
+			}
+	  	);
+	}
+});
 
 Template.userlist.events({
 	'click .stream': function() {
@@ -20,9 +22,11 @@ Template.userlist.events({
 	}
 })
 
-Template.user.selected = function() {
-  	return Session.equals('selected_user', this._id) ? 'selected' : '';
-};
+Template.user.helpers({
+	selected: function() {
+	  	return Session.equals('selected_user', this._id) ? 'selected' : '';
+	}
+});
 
 Template.user.events({
   	'click .user': function() {
@@ -30,15 +34,44 @@ Template.user.events({
   	}
 });
 
+Template.localstream.helpers({
+	streamButtonText: function(){
+		return Meteor.user().profile.isStreaming ? 'Stop' : 'Start';
+	}
+});
+
 Template.localstream.events({
 	'click': function() {
-		Meteor.users.update(
-			{_id: Meteor.user()._id},
-			{$set: 
-				{'profile.isStreaming': !Meteor.user().profile.isStreaming}
-			}
-		);
+		if(Meteor.user().profile.isStreaming){
+			camera.stop()
+			.then(function(result){
+				Meteor.users.update(
+					{_id: Meteor.user()._id},
+					{$set: 
+						{'profile.isStreaming': false}
+					}
+				);
+			}).catch(function(err) {
+				console.log(err);
+			});
+		} else {
+			camera.start()
+			.then(function(result){
+				Meteor.users.update(
+					{_id: Meteor.user()._id},
+					{$set: 
+						{'profile.isStreaming': true}
+					}
+				);
+			}).catch(function(err) {
+				console.log(err);
+			});
+		}
 	}
+});
+
+Template.localstream.onRendered(function () {
+	camera = new CameraService(window.document.getElementById('localVideo'));
 });
 
 Meteor.startup(function() {
